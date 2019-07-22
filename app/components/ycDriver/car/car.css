@@ -1,0 +1,91 @@
+.car{
+  color: #80828D;
+  font-size:1.5rem;
+}
+.hotList{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 1.5rem
+}
+.hotList li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    margin-top: 1rem
+}
+.hotList li img{
+    margin: 0.5rem auto;
+    width: 4rem;
+}
+.car-list{
+  background-color: #fff;
+}
+.hot-box .title {
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 1.5rem;
+  font-size: 2rem;
+  color: #80828D;
+  font-weight: normal;
+}
+.total-list .total-item .car-list li{
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 2rem;
+  border-bottom: 1px solid #F3F3F3;
+}
+.total-list .total-item .title {
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: #80828D;
+  font-weight: normal;
+}
+.letter-box {
+  position: fixed;
+  right: 1.5rem;
+  top: 20%;
+  width: 0.2rem;
+  height: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #80828D;
+  z-index: 1;
+}
+.letter-box .letter-list {
+  text-align: center;
+  width: 1rem;
+}
+.car-type-list {
+  position: fixed;
+  top: 3rem;
+  right: 0;
+  background-color: #fff;
+  padding: 0 1rem;
+  width: 13rem;
+  height: 75%;
+  z-index: 2;
+  border-left: 1px solid #F3F3F3;
+  border-bottom: 1px solid #F3F3F3;
+  overflow: auto;
+}
+.car-type-list .type-item {
+  height:4rem;
+  line-height:4rem;
+  border-bottom: 1px solid #F3F3F3;
+  /*text-indent: 1em;*/
+}

@@ -1,0 +1,68 @@
+.newReg{
+  height: 100%;
+  background: url("../../../public/img/bg_pic.png") no-repeat ;
+  background-size: 100% 100%;
+  background-position: 0 center;
+}
+.regCoupon{
+  height:50%;
+  width: 100%;
+  background: url('../../../public/img/coinbg_pic.png') no-repeat center center;
+  background-size: 100% 100%;
+  margin-top: 3.5rem;
+  padding: 1rem 0;
+}
+.newRegTop div{
+  text-align: center;
+}
+
+.newRegLogo img{
+  width: 22%;
+  margin: 2rem auto;
+  margin-bottom: 0;
+}
+.wordPic{
+  margin:1rem 0 0;
+}
+.wordPic img{
+  width:75%;
+}
+.coupon{
+  height: 40%;
+  width: 85%;
+  margin: 2rem auto;
+  background: url("../../../public/img/car_bg.png") no-repeat center center;
+  background-size: 100% 100%;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.coupon p,.coupon h2{
+  text-align: right;
+}
+.coupon h2{
+  font-size: 2rem;
+}
+.phoneNum{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.phoneNum button{
+  height: 3.2rem;
+  width: 5rem;
+  border: none;
+  background-color: orange;
+  color: #fff;
+}
+.phoneNum input{
+  width: 60%;
+  margin-bottom: 0
+}
+.couponName{
+  width: 1rem;
+  margin-left: 1rem;
+  color: #FF9434;
+  font-size: 1.7rem;
+  font-weight: bold;
+}

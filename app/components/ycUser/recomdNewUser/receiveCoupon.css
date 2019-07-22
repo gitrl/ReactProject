@@ -1,0 +1,106 @@
+.receiveCouponBig{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+.rcTopPic{
+  height: 55%;
+}
+.rcTopPic img{
+  height: 100%;
+}
+.inputNumberBig{
+  position: relative;
+  background: url("../../../public/img/redbag_pic.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.inputNumberbox{
+  width: 80%;
+  margin: 0 auto;
+}
+.inputNumberbox input,.inputNumberbox button{
+  border: none;
+  font-size: 1.5rem;
+}
+.inputNumberbox .receiveCoupon ,.couponConBottom .receiveCoupon{
+  height: 4rem;
+  border-radius: 2rem;
+  background-color: #FFF339;
+  color:#E74242;
+  width: 100%;
+  font-size: 1.8rem;
+}
+.inputNumber{
+  background-color: #fff;
+  display: flex;
+  height: 4rem;
+  border-radius: 6px;
+  padding: 0 1rem;
+  margin-top: 4rem;
+}
+.inputNumber input{
+  width:65%;
+  height: 100%;
+  margin: 0;
+}
+.inputNumberbox .inputCode{
+   margin: 1rem 0;
+  height: 4rem;
+  border-radius: 6px;
+  padding: 0 1rem;
+}
+.receiveCode{
+  color: #486AE7;
+}
+
+.couponContent{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ff453f;
+}
+.couponConBottom{
+  background: url("../../../public/img/red_bg.png") no-repeat;
+  background-size: 100% 100%;
+  flex: 1;
+}
+.couponTypeList{
+  background: url("../../../public/img/coupon_bgwhite.png") no-repeat;
+  background-size: 100% 100%;
+  height: 8rem;
+  width: 86%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.couponConBottom .receiveCoupon{
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+}
+.couponType{
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.couponTypeList li{
+  margin: 0;
+  color: #B9B9B9;
+}
+.circleList{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 5px;
+  display: inline-block;
+  background-color:#B9B9B9;
+}
+.couponRule{
+  margin: 1rem;
+}
+.couponRule a{
+  color: #FFF339;
+}

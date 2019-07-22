@@ -1,0 +1,23 @@
+.regTitle{
+  height: 4rem;
+  font-size: 2.2rem;
+  padding: 0 2rem;
+  line-height: 4rem;
+  background-color: #eaeaea;
+}
+.regContent{
+  padding: 0 2rem;
+  background-color: #fff;
+}
+.regContent p{
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.regAgree{
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.regAgree a{
+  color: red;
+}

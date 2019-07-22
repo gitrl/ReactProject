@@ -1,0 +1,41 @@
+.container .contact-rule li{
+  width: 100%;
+  padding: 0 2.56rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+.contact-rule{
+  padding-bottom: 1rem;
+}
+.about-title{
+  margin: 0.5rem 2rem
+}
+.about-logo{
+  width:10rem ;
+}
+.about-logo img{
+  width:10rem ;
+  height:10rem;
+  margin-bottom: 2rem;
+}
+.about-logo-top{
+  background-color: white;
+  height: 22rem;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;;
+}
+.check-list li{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid #E1E1E1;
+  font-size: 1.75rem;
+}
+
+.about .check-list li a{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,185 @@
+/* Base Application Styles */
+.index .content img {
+  display: block;
+  width: 3rem;
+  margin: 20px auto;
+  height:3rem;
+}
+.index .navbar-dark{
+  font-size: 2rem;
+}
+.index .navbar-dark .navbar-left{
+  margin-left:1.5rem ;
+}
+.index .navbar-dark .navbar-left .icon{
+  margin-right: 0.5rem;
+}
+.content{
+  background: white;
+  padding:6rem 0 ;
+}
+.content ul{
+  display: flex;
+  flex-wrap:wrap;
+  /*width: 82%;*/
+  margin: 0 auto;
+}
+.content ul li{
+  width: 25%;
+  text-align: center;
+}
+.content ul li span{
+  font-size: 1.88rem;
+}
+/******物品遗失******/
+.index .lostContent{
+  width: 100%;
+  padding: 0 20px ;
+}
+
+.index .lostContent .lostOrder{
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  display: flex;
+  background: white;
+}
+.index .lostContent .lostOrder p{
+  color: #222231;
+  font-size: 1.88rem;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.startAddress{
+
+}
+.index .lostContent .titleSpan{
+   display: inline-block;
+   margin: 10px 12px;
+  font-size: 1.75rem;
+   color: #80828D;
+ }
+.lostContent .lostOrder p .circle{
+  width: 5px;
+  height:5px;
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  background: #67BFA9 ;
+}
+.one{
+  flex: 1;
+}
+
+.two{
+  display: flex;
+  align-items: center;
+}
+.two .select{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.two img{
+  width: 2.5rem;
+}
+/*联系客服*/
+ .contactBtn{
+  height: 45px;
+  text-align: center;
+  line-height:45px;
+  margin: 30px 0;
+}
+.lostContent .playCall{
+  /*width:37.5rem;*/
+  width:90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.lostContent .playCall .telNumber{
+  border-bottom: 1px solid #C5C9D9;
+  /*height: 60%;*/
+  width: 100%;
+  text-align: center;
+  line-height: 4rem;
+}
+.lostContent .playCall .opreate{
+  display: flex;
+  /*height: 40%;*/
+  padding-top: 5px;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+.playCall .opreate div{
+  width: 50%;
+  text-align: center;
+}
+.playCall .opreate .cancel{
+  border-right:1px solid #C5C9D9;
+}
+/********扣费申诉*******/
+.index .withFee{
+  padding: 0;
+}
+.withFee .feeList button{
+  border:0;
+  /*width: 8rem;*/
+  /*height:5rem;*/
+  border-radius: 3px;
+}
+.deduct_amount{
+  margin-left: 1rem;
+}
+/********扣费申诉原因*******/
+
+.index .re-content textarea{
+  /*height: 10rem;*/
+  border: 1px solid #C5C9D9;
+  resize: none;
+  height: 10rem;
+}
+.index .re-content{
+  margin: 0 auto;
+}
+.index .testDetail p span{
+  margin-top: 1rem;
+  display: inline-block;
+}
+.index .testDetail img{
+  width: 2rem;
+  display: inline-block;
+  height: 2rem;
+  margin-right: 0.5rem;
+  margin-top: -10px;
+}
+/****成交下降****/
+.index .dealDown{
+  padding: 0;
+}
+.index .dealDown .lostOrder{
+  margin-bottom: 1px  ;
+}
+.index .dealDown .appeal-reason{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.index .dealDown .lostOrder p{
+  color: #666666;
+  font-weight: normal ;
+  font-size: 1.75rem;
+}
+.dealDown .appeal-reason{
+  padding-left: 2rem;
+  margin-bottom: 1px;
+}
+.dealDown .appeal-reason div{
+  padding: 0.5rem 1rem;
+  border: 1px solid #C5C9D9;
+  border-radius:2rem;
+  margin: 1rem 0;
+  font-size: 1.88rem;
+  margin-right: 2rem;
+  color: #666666;
+}
+.driverService .btn{
+  background-color: #82C4F2;
+}

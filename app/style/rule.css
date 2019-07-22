@@ -1,0 +1,128 @@
+.container .accordion-item{
+    font-size: 2rem;
+}
+.container .accordion-item .accordion-title{
+    padding: 0.5rem 2.5rem ;
+}
+.container .accordion-content{
+    padding: 0;
+}
+.container .accordion-content .yc-rule{
+    border-top: 1px solid #E1E1E1;
+    font-size: 1.8rem;
+}
+.container .yc-rule li{
+    border-bottom: 1px solid #E1E1E1;
+    padding:1rem 0.56rem;
+    width: 90%;
+    margin: 0 auto;
+    color: #666666;
+}
+.container .valuation li:nth-child(5){
+    border-bottom: 0;
+}
+.container .yc-rule li span{
+    float: right;
+}
+.index .rule-explain p{
+    font-size: 1.63rem;
+    color: #80828D;
+}
+.index .rule-explain p span{
+    color: #FF5643;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.container .valuation li{
+    padding:1rem 0;
+}
+
+/*取消订单规则*/
+/*.index .cancelRule{*/
+/*margin-bottom:1.5rem ;*/
+/*}*/
+.driverCancel .rule-header{
+    padding: 1rem;
+    color: #000000;
+    border-bottom: 1px solid #E1E1E1;
+}
+.index .rule-content{
+    color: rgba(43, 43, 43, 0.78);
+    padding: 1rem 1.5rem;
+}
+.rule-content p{
+    line-height: 2.3rem;
+    font-size: 1.75rem;
+    text-indent: 30px;
+}
+/*投诉*/
+.index .complaint ul{
+    margin-bottom: 1rem;
+}
+.index .complaint ul li{
+    line-height: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 1.5rem;
+    font-size: 1.88rem;
+}
+.index .complaint textarea{
+    height: 12rem;
+    border: 0;
+    resize: none;
+}
+/***********以上 ycDriver-rule.css***************/
+
+.container .accordion-content .rule{
+    border-top: 1px solid #E1E1E1;
+    font-size: 2rem;
+}
+
+.rule-header{
+    text-align: center;
+}
+/*牦牛车主用户协议*/
+.driverUser .accordion-title{
+    font-size: 2rem;
+    /*padding: 1.5rem 1rem;*/
+}
+.index .cancelRule{
+    margin-bottom: 1.5rem;
+    /*padding: 1rem;*/
+    background-color: #fff;
+}
+.index .cancelRule .accordion{
+    border-top: none;
+}
+.infocollect{
+    color: #54565f;
+    text-indent: 0;
+}
+/**********以上Airport-rule.css***********/
+
+.container .valuation li p{
+    line-height: 3rem;
+}
+/**********以上busDriver-rule.css***********/
+
+
+.carRule .li .yc-rule{
+    border-top:none !important;
+}
+.carRule .container .yc-rule li:last-child{
+    border-bottom: none !important;
+}
+
+.carRule .yd-icon{
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+.carRule .container .accordion-item .accordion-title{
+    padding: .625rem .9375rem !important;
+}
+.carRule .yd-title{
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+.carRule .accordion{
+    margin: 0 0 .9375rem 0;
+}

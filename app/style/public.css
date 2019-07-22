@@ -1,0 +1,162 @@
+body,html{
+  height: 100% ;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  font-family: 微软雅黑,Helvetica,STHeiTi,sans-serif;
+}
+ul,li,p{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#app{
+  height: 100%;
+}
+a{
+  text-decoration:none;
+  color:#333;
+}
+.colorRed{
+  background: #F06E6E !important;
+}
+/*******字体颜色******/
+.coloWhite{
+  color: #fff;
+}
+.colorg{
+  color: #666666;
+}
+.colorblack{
+  color: #222231;
+}
+.colorGray{
+  color: #80828D;
+}
+/*****圆角*****/
+.borderR5{
+  border-radius: 5px;
+}
+.borderR10{
+  border-radius: 10px;
+}
+/****字体大小****/
+.fontSize17{
+  font-size: 17px;
+}
+.fontSize1{
+  font-size: 1rem;
+}
+.fontSize15{
+  font-size: 15px;
+}
+.fontS15{
+  font-size: 1.5rem;
+}
+.fontSize267{
+  font-size: 2.67rem;
+}
+.fontSize175{
+  font-size: 1.75rem;
+}
+.fontSize25{
+  font-size:1.88rem;
+}
+.fontS25{
+  font-size:2.5rem;
+}
+.fontSize163{
+  font-size:1.63rem;
+}
+.fontSize2{
+  font-size: 2rem;
+}
+.fontW{
+  font-weight: bold;
+}
+.fontWeight{
+  font-weight: bold;
+}
+.bgcolorW{
+  background-color: #fff;
+}
+/*.bgcolorB{*/
+/*background-color: #82C4F2;*/
+/*}*/
+.padding20{
+  padding: 2.5rem 3.3rem;
+}
+.padding21{
+  padding: 2.5rem 1rem;
+}
+.padding2{
+  padding:2rem 2.5rem ;
+}
+.padding4{
+  padding:2rem 0.5rem ;
+}
+.padding3{
+  padding:1rem 1.63rem ;
+}
+.padding10{
+  padding: 10px;
+}
+.padding5{
+  padding: 1.25rem;
+}
+.padding1{
+  padding: 0.5rem 0;
+}
+.margin25{
+  margin: 2.5rem 0;
+}
+.marginCenter{
+  margin: 0 auto;
+}
+.marginL{
+  margin-left:3rem;
+}
+.marginT{
+  margin-top:3rem;
+}
+.marginT1{
+  margin-top:1rem;
+}
+.width100{
+  width: 100%;
+}
+.height8{
+  height: 8rem;
+}
+.height100{
+  height: 100%;
+}
+.height37{
+  height: 26rem;
+}
+.height16{
+  height:16.5rem;
+}
+.action{
+  border-color:#5EAEE6 !important;
+  color: #5EAEE6 !important;
+}
+.textAlign{
+  text-align: center;
+}
+.colorB{
+  color:#5EAEE6 ;
+}
+/*验证成功弹框*/
+.popover{
+  width: 10rem;
+  left: 10rem !important;
+  top: 10rem !important;
+  border-radius: 3rem;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  border: 0;
+}

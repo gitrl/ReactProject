@@ -1,0 +1,43 @@
+.check-top{
+  height: 25rem;
+  background: url("../../../../public/img/check_bg.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.checkImg{
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  line-height: 15rem;
+}
+.checkImg img{
+  animation: zhuanquan 1s linear infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+@keyframes zhuanquan {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.check-words{
+  font-size: 3rem;
+  position: absolute;
+  color: #fff;
+}
+.check-list li{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid #E1E1E1;
+  font-size: 1.75rem;
+}

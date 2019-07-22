@@ -1,0 +1,187 @@
+
+.bodyH2{
+  height: 100%;
+  background: #fff;
+}
+/*推荐司机/乘客*/
+.index .recTitle{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.index .recTop{
+  border-bottom: 1px solid #E1E1E1;
+  padding:1.5rem 0.5rem;
+  width: 100%;
+  /*position: fixed;*/
+  z-index: 2;
+  background: white;
+
+}
+ .recTitle a{
+  color: #80828D ;
+}
+.current{
+  border-bottom: 3px solid #FF5634;
+  color: #222231 !important;
+}
+
+.index .recContent .driver h2{
+  color: #EA2121;
+  position: absolute;
+  top: 15%;
+  /*left:20%;*/
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: normal;
+}
+.index .recContent{
+  text-align: center;
+  padding-top:1rem;
+  position: relative;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+}
+.index .recContent .driver{
+  width: 63%;
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index .recContent .driver img{
+  width: 100%;
+}
+/*推荐司机背景*/
+.inviteBg{
+  background: url("../../public/img/invite_bg5.png")no-repeat center center;
+  height: 44rem;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inviteBg .btn-dark{
+  position: absolute;
+  bottom: -1rem;
+}
+.btn-dark.active, .btn-dark:active, .btn-dark:hover{
+  background: #749ef4;
+  border-color: #749ef4;
+}
+/*奖励规则*/
+.index .recFooter{
+  text-align: center;
+  display: flex;
+  padding: 4rem 1rem;
+}
+.index .recFooter div{
+  width: 45%;
+  margin: 0 auto;
+  font-size: 2rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px #F6E0D8;
+}
+.index .recFooter div a{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.index .recFooter div img{
+  width: 4rem;
+  margin: 0 0.5rem;
+}
+.btn-dark{
+  width:50%;
+  height:6rem;
+  background:#5488F2;
+  border: 1px solid #5488F2;
+  font-size:2.6rem;
+  border-radius: 0.63rem ;
+  line-height: 0.5rem;
+}
+.color{
+   color: #FF5643 ;
+ }
+.passenger{
+  padding-top:3.5rem ;
+}
+.index .passenger h2{
+  font-size: 3rem;
+  margin-top:1rem;
+  font-weight: normal;
+  text-align: center;
+}
+ .passenger .car img{
+   width: 34rem;
+}
+.passenger .btn-dark{
+  margin-top:2rem;
+}
+
+/******推荐奖励*******/
+.index .rewardTitle{
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  color: #82c4f2;
+  align-items: center;
+}
+.rewardTitle div:nth-of-type(1),.rewardTitle div:nth-of-type(3){
+  width: 25%;
+  height: 0.3rem;
+  background:#82C4F2;
+}
+.rewardTitle div:nth-of-type(2){
+  width: 85%;
+  font-size: 2.25rem;
+  text-align: center;
+}
+/*推荐乘客奖励*/
+.recommendCard{
+  width:80%;
+  margin: 3rem auto;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 10px rgba(0,0,0,.3);
+  color:#80828D;
+  border-radius: 0.5rem;
+}
+ .card-header{
+   background:#bdbdbd;
+   /*background:#82C4F2;*/
+   color: #fff;
+   padding:2.5rem 3rem;
+   height: 4rem;
+   border-top-left-radius: 0.5rem;
+   border-top-right-radius: 0.5rem;
+ }
+.card-header a{
+  color: #fff;
+}
+.card table{
+  width: 100%;
+}
+.card .rewardRule tr{
+  font-size: 1.7rem;
+  /*height: 8rem;*/
+}
+
+.card table tr{
+  border-bottom: 1px solid #E1E1E1;
+  /*line-height:4.5rem;*/
+  text-align: center;
+  height: 4rem;
+}
+.card .card-body table tr td{
+  width: 3rem;
+}
+.card .card-body table tbody tr:last-child{
+  border-bottom:0;
+}
+
